@@ -39,9 +39,9 @@ background-color:#f488d4;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom-left-radius: 35% 30%;
+  border-bottom-left-radius: 33% 27%;
 
-  box-shadow: -10px 5px 5px 0px rgb(125, 119, 134, 0.5);
+  box-shadow: -4px 3px 5px 1px rgb(125, 119, 134, 0.5);
   margin-bottom: 10px;;
 }
 
