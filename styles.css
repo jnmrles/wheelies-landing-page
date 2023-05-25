@@ -41,7 +41,8 @@ background-color: #f287d3;
   align-items: center;
   border-bottom-left-radius: 35% 20%;
 
-  box-shadow: -1px 7px 7px 0px rgb(170, 117, 255);
+  box-shadow: -1px 5px 5px 0px rgb(170, 117, 255);
+  margin-bottom: 8px;;
 }
 
 .hero_info{
