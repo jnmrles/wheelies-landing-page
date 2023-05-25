@@ -39,9 +39,10 @@ background-color:#f488d4;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom-left-radius: 15% 10%;
+  border-bottom-left-radius: 20% 10%;
+  border-bottom-right-radius: 20% 7%;
 
-  box-shadow: -5px 3px 5px 1px rgb(125, 119, 134, 0.5);
+  box-shadow: -5px 3px 10px 4px rgb(125, 119, 134, 0.5);
   margin-bottom: 10px;;
 }
 
