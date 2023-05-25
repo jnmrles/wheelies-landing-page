@@ -9,23 +9,7 @@
 }
 
 
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-  background-color: #f198ed;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(176, 222, 250);
-  border-radius: 10px;
-}
 
 header{
   background-color: #3e83fa;
