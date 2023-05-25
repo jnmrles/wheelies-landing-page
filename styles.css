@@ -17,10 +17,10 @@ header{
 
 
 main{
-  background: linear-gradient(174deg, #553cdd, #ee83ff, #56b3d5);
-  background-size: 600% 600%;
+  background: linear-gradient(174deg, #56b3d5, #ee83ff,  #553cdd );
+
   animation: AnimationName 37s ease infinite;
-  height: 100vh;
+background-color: #2facfb;
   width: 100%;
 }
 
@@ -39,6 +39,8 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom-left-radius: 25% 2%;
+  border-bottom-right-radius: 25% 2%;
 }
 
 .hero_info{
@@ -79,15 +81,6 @@ main{
 }
 
 
-
-.hello {
-  height: 600px;
-  background: linear-gradient(174deg, #553cdd, #ee83ff, #56b3d5);
-  background-size: 600% 600%;
-  animation: AnimationName 37s ease infinite;
-  height: 100vh;
-  width: 100%;
-}
 
 
 
@@ -277,3 +270,17 @@ a {
   }
 }
 
+
+.why{
+background-color: transparent;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.why_info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
