@@ -62,6 +62,7 @@ background-color:#f488d4;
   text-align: center;
   padding: 2%;
   font-weight: bold;
+
   /* background-color: rgba(95, 151, 241, 0.2);
   border-radius: 30%;
   width: 99% */
@@ -277,10 +278,15 @@ a {
   }
 }
 
+.why_wrapper{
+  background-color: rgb(204,220,220);
+padding-bottom: 1%;
+  height: 100%;
+}
+
 
 .why{
-  background: linear-gradient(174deg, #56b3d5, #ee83ff,  #553cdd );
-  background-size: 600% 600%;
+
   animation: AnimationName 17s ease infinite;
   background-image: url("./assets/straw.jpg");
   background-size: cover;
@@ -290,6 +296,14 @@ a {
   height: 100%;
   /* border-bottom-left-radius: 20% 10%;
   border-bottom-right-radius: 20% 7%; */
+  border-bottom-left-radius: 20% 10%;
+  border-bottom-right-radius: 20% 7%;
+  border-bottom-left-radius: 20% 10%;
+  border-bottom-right-radius: 20% 7%;
+
+  box-shadow: -5px 5px 5px 0px rgb(125, 119, 134, 0.5);
+
+
 
 }
 
@@ -301,12 +315,16 @@ a {
   text-align: center;
   justify-content: space-between;
   gap: 15px;
+  margin-bottom: 10%;
 
 }
 
 .why_info > h1{
   font-size: 5rem;;
   margin-bottom: 50px;
+  text-shadow: #00c4f3 5px 5px;
+  color:whitesmoke;
+
 }
 
 .card{
@@ -446,7 +464,8 @@ a {
 .flag {
   position: relative;
   display: inline;
-  background: rgb(255,255,255);
+  background: rgb(26, 154, 233);
+  color: white;
   font-weight: 600;
   z-index: 15;
   padding: 6px 10px;
@@ -464,8 +483,8 @@ a {
   width: 0;
   margin-left: -8px;
   border: solid transparent;
-  border-bottom-color: rgb(255,255,255);
-  border-width: 8px;
+  border-bottom-color: rgb(255, 255, 255);
+  border-width: 10px;
   pointer-events: none;
 }
 
@@ -509,7 +528,7 @@ a {
   position: relative;
   margin: 1em 0 0 0;
   padding: 1em;
-  background: rgb(254,254,254);
+  background: rgba(250, 248, 252, .9);
   -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
   -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
   box-shadow: 0 0 1px rgba(0,0,0,0.20);
@@ -636,15 +655,31 @@ a {
   }
 }
 
-.howWorks_info{
-  text-align: center;
+.howWorks{
+  background-image: url("./assets/cone.png");
+  color: rgb(190, 108, 235);
+
+    /* background: linear-gradient(174deg, #56b3d5, #ee83ff,  #553cdd ); */
+  /* animation: AnimationName 27s ease infinite; */
+  background-size: cover;
+  background-repeat: no-repeat;
+background-position:  50% 75%;;
+display: flex;
+align-items: center;
+height: 100%;
+
 }
 
-.howWorks{
-    background: linear-gradient(174deg, #56b3d5, #ee83ff,  #553cdd );
-  animation: AnimationName 27s ease infinite;
-  background-size: 600% 600%;
-  position: absolute;
-  z-index: -100;
-  margin-top: -50;px;
+.howWorks_info{
+  text-align: center;
+  margin-top: 20px;;
 }
+
+
+.howWorks_info > h1{
+  font-size: 5rem;;
+  font-weight: bolder;
+  color: rgb(76, 20, 245);
+  text-shadow: #f141bf 5px 5px;
+}
+
