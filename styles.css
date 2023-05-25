@@ -17,10 +17,10 @@ header{
 
 
 main{
-  background: linear-gradient(174deg, #56b3d5, #ee83ff,  #553cdd );
-
-  animation: AnimationName 37s ease infinite;
-background-color: #2facfb;
+  /* background: linear-gradient(174deg, #56b3d5, #ee83ff,  #553cdd );
+  animation: AnimationName 27s ease infinite;
+  background-size: 600% 600%; */
+background-color: #f988d7;
   width: 100%;
 }
 
@@ -39,8 +39,9 @@ background-color: #2facfb;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom-left-radius: 25% 2%;
-  border-bottom-right-radius: 25% 2%;
+  border-bottom-left-radius: 20% 10%;
+
+  box-shadow: -1px 7px 7px 0px rgb(170, 117, 255);
 }
 
 .hero_info{
@@ -272,7 +273,12 @@ a {
 
 
 .why{
-background-color: transparent;
+  /* background: linear-gradient(174deg, #56b3d5, #ee83ff,  #553cdd );
+  background-size: 600% 600%;
+  animation: AnimationName 37s ease infinite; */
+  background-image: url("./assets/straw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   height: 100vh;
