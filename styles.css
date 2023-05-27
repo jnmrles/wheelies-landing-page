@@ -23,7 +23,7 @@ main{
   /* background: linear-gradient(174deg, #56b3d5, #ee83ff,  #553cdd );
   animation: AnimationName 27s ease infinite;
   background-size: 600% 600%; */
-background-color:#f488d4;
+  background-color:#f488d4;
   width: 100%;
 }
 
@@ -144,6 +144,7 @@ bottom: 35%;
   padding: 15px 200px;
   background: rgba(34, 159, 232, 0.1);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index:100
 }
 .nav,
 .nav .nav-links {
@@ -426,7 +427,7 @@ padding-bottom: 1%;
   height: 10px;
   position: absolute;
   background: #00c4f3;
-  z-index: 5;
+  z-index: 4;
   left: 0;
   right: 0;
   margin-left:auto;
@@ -683,3 +684,17 @@ height: 100%;
   text-shadow: #f141bf 5px 5px;
 }
 
+
+.contact{
+
+  display: flex;
+  height: 100vh;
+
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
