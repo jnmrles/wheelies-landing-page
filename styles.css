@@ -220,7 +220,8 @@ a {
     display: block;
   }
   .nav {
-    padding: 15px 20px;
+    padding: 15px 5px;
+    justify-content: space-evenly;
   }
   .nav .nav-links {
     position: fixed;
@@ -244,6 +245,19 @@ a {
     color: rgba(245, 245, 245, 0.834);
     font-size: 20px;
     cursor: pointer;
+  margin-left: -30%;
+  }
+
+    #logo{
+      margin-left: -20%;
+    }
+
+  .navOpenTop{
+    color: rgb(30, 141, 245);
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: -30%;
+
   }
   .nav .navCloseBtn {
     position: absolute;

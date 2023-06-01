@@ -30,11 +30,11 @@
       <li><a href="#">About Us</a></li>
       <li><a href="#">Contact Us</a></li>
     </ul>
-    <i class="uil uil-search search-icon" id="searchIcon"></i>
+    <!-- <i class="uil uil-search search-icon" id="searchIcon"></i>
     <div class="search-box">
       <i class="uil uil-search search-icon"></i>
       <input type="text" placeholder="Search here..." />
-    </div>
+    </div> -->
   </nav>
 
 </header>
@@ -188,16 +188,23 @@ navCloseBtn.addEventListener("click", () => {
 });
 
 const logo = document.getElementById('logo');
+const burg = document.querySelector(".navOpenBtn")
 window.onscroll = function () {
   console.log("scroll")
     if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
       console.log("logo", logo)
+      console.log("burg", burg)
         logo.classList.add("logoUp");
         logo.classList.remove("logo");
+        burg.classList.remove("navOpenTop")
+        burg.classList.add("navOpenBtn")
+
     }
     else {
         logo.classList.add("logo");
         logo.classList.remove("logoUp");
+        burg.classList.add("navOpenTop")
+        burg.classList.remove("navOpenBtn")
     }
 };
 
