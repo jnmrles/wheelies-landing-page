@@ -20,9 +20,6 @@ header{
 
 
 main{
-  /* background: linear-gradient(174deg, #56b3d5, #ee83ff,  #553cdd );
-  animation: AnimationName 27s ease infinite;
-  background-size: 600% 600%; */
   background-color:#f488d4;
   width: 100%;
 }
@@ -62,25 +59,8 @@ main{
   text-align: center;
   padding: 2%;
   font-weight: bold;
-
-  /* background-color: rgba(95, 151, 241, 0.2);
-  border-radius: 30%;
-  width: 99% */
-
 }
 
-
-
-
-/* .hero_info > button {
-  border-radius: 30px;
-  height: 60px;
-  width: 300px;
-   background: linear-gradient(174deg, #553cdd, #ee83ff, #56b3d5);
-   animation: AnimationName 5s ease infinite;
-  color: white;
-  border: 2px solid white;
-} */
 
 .hero_box{
   background-color: rgba(0, 0, 0, 0.1);
@@ -107,9 +87,8 @@ main{
 
 svg {
   position: fixed;
-right: 28%;
-bottom: 35%;
-  /* top: 0; */
+  right: 28%;
+  bottom: 35%;
   fill: none;
   stroke: #fff;
   stroke-dasharray: 150 480;
@@ -131,10 +110,6 @@ bottom: 35%;
   font-size: 18px;
   font-weight: 100;
 }
-
-
-
-
 
 .nav {
   position: fixed;
@@ -295,13 +270,8 @@ padding-bottom: 1%;
   display: flex;
   justify-content: center;
   height: 100%;
-  /* border-bottom-left-radius: 20% 10%;
-  border-bottom-right-radius: 20% 7%; */
   border-bottom-left-radius: 20% 10%;
   border-bottom-right-radius: 20% 7%;
-  border-bottom-left-radius: 20% 10%;
-  border-bottom-right-radius: 20% 7%;
-
   box-shadow: -5px 5px 5px 0px rgb(125, 119, 134, 0.5);
 
 
@@ -687,11 +657,30 @@ height: 100%;
 
 .contact{
 
+  background-image: url("./assets/drop.png");
+ background-position: center;
+ background-repeat: no-repeat;
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
 
 }
 
+.contact_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.contact_info > h1 {
+  font-size: 5rem;;
+  margin-bottom: 50px;
+  text-shadow: #00c4f3 5px 5px;
+  color:whitesmoke;
+}
 
 footer {
   display: flex;
