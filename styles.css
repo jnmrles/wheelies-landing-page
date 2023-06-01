@@ -130,42 +130,7 @@ a {
   opacity: 0;
   pointer-events: none;
 }
-/* .nav .search-icon {
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
-}
-.nav .search-box {
-  position: absolute;
-  right: 250px;
-  height: 45px;
-  max-width: 555px;
-  width: 100%;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.2s linear;
-}
-.nav.openSearch .search-box {
-  opacity: 1;
-  pointer-events: auto;
-}
-.search-box .search-icon {
-  position: absolute;
-  left: 15px;
-  top: 50%;
-  left: 15px;
-  color: #4a98f7;
-  transform: translateY(-50%);
-}
-.search-box input {
-  height: 100%;
-  width: 100%;
-  border: none;
-  outline: none;
-  border-radius: 6px;
-  background-color: #fff;
-  padding: 0 15px 0 45px;
-} */
+
 .nav .navOpenBtn,
 .nav .navCloseBtn {
   display: none;
@@ -296,7 +261,8 @@ padding-bottom: 1%;
 
 .card{
   border: 2px solid rgba(70, 133, 243, 0.3);
-  background-color: rgba(245, 250, 255, 0.3);
+  background-color: rgba(245, 250, 255, 0.9);
+  color: #50b3e8;
   width: 250px;
   height: 250px;
   display: flex;
@@ -314,8 +280,6 @@ padding-bottom: 1%;
 
 .howWorks{
   height: 100vh;
-
-
 }
 
 
@@ -392,7 +356,7 @@ padding-bottom: 1%;
   width: 16px;
   height: 10px;
   position: absolute;
-  background: #00c4f3;
+  background: #0092f3;
   z-index: 4;
   left: 0;
   right: 0;
@@ -403,7 +367,7 @@ padding-bottom: 1%;
 }
 
 .timeline .hexa:before {
-  border-bottom: 4px solid #00c4f3;
+  border-bottom: 4px solid #0092f3;
   border-left-width: 8px;
   border-right-width: 8px;
   top: -4px;
@@ -412,7 +376,7 @@ padding-bottom: 1%;
 .timeline .hexa:after {
   border-left-width: 8px;
   border-right-width: 8px;
-  border-top: 4px solid #00c4f3;
+  border-top: 4px solid #0092f3;
   bottom: -4px;
 }
 
@@ -495,7 +459,7 @@ padding-bottom: 1%;
   position: relative;
   margin: 1em 0 0 0;
   padding: 1em;
-  background: rgba(250, 248, 252, .9);
+  background: rgba(255, 143, 244, 0.8);
   -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
   -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
   box-shadow: 0 0 1px rgba(0,0,0,0.20);
@@ -625,11 +589,12 @@ padding-bottom: 1%;
 
 .works_wrapper{
   background-color: #f78da7;;
+  padding-bottom: 1%;
 }
 
 .howWorks{
   background-image: url("./assets/cone.png");
-  color: rgb(190, 108, 235);
+  color:white;
 
     /* background: linear-gradient(174deg, #56b3d5, #ee83ff,  #553cdd ); */
   /* animation: AnimationName 27s ease infinite; */
@@ -644,6 +609,7 @@ border-bottom-left-radius: 20% 10%;
   box-shadow: -5px 5px 5px 0px rgb(125, 119, 134, 0.5);
   background-color: #f78da7;
 
+
 }
 
 .howWorks_info{
@@ -655,8 +621,8 @@ border-bottom-left-radius: 20% 10%;
 .howWorks_info > h1{
   font-size: 5rem;;
   font-weight: bolder;
-  color: rgb(76, 20, 245);
-  text-shadow: #f141bf 5px 5px;
+  color: whitesmoke;
+  text-shadow:  #fe00b6  5px 5px;
 }
 
 
