@@ -74,7 +74,7 @@ main{
 
 .uil{
   margin-top: 0%;
-  font-size:4rem;
+  font-size:3rem;
   color: #fff;
 
 }
@@ -271,6 +271,11 @@ padding-bottom: 1%;
   align-items: center;
   border-radius: 15%;
 }
+
+.card > img {
+  max-width: 15rem;;
+}
+
 
 .plce{
   background-color: rgba(255, 50, 228, 0.4);
@@ -675,6 +680,7 @@ border-bottom-left-radius: 20% 10%;
 .contact_info > p {
   margin-top: 5%;
 }
+
 footer {
   margin-top: 2%;
   display: flex;
@@ -682,4 +688,22 @@ footer {
   justify-content: center;
   align-items: center;
   color: whitesmoke;
+}
+
+.socials{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.socials li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.tik{
+  margin-top: 1.2rem;
+  display: block;
 }
