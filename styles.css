@@ -136,12 +136,13 @@ a {
 .nav .logo {
   font-size: 22px;
   font-weight: 500;
-  color: rgb(30, 141, 245);
+  color: #3097ea;
+
 
 }
 
 .logoUp {
-  color: whitesmoke;
+  color: rgb(245, 245, 245);
   font-size: 22px;
   font-weight: 500;
 }
@@ -156,7 +157,7 @@ a {
   opacity: 0;
   pointer-events: none;
 }
-.nav .search-icon {
+/* .nav .search-icon {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
@@ -191,7 +192,7 @@ a {
   border-radius: 6px;
   background-color: #fff;
   padding: 0 15px 0 45px;
-}
+} */
 .nav .navOpenBtn,
 .nav .navCloseBtn {
   display: none;
@@ -233,7 +234,7 @@ a {
     padding-top: 100px;
     row-gap: 30px;
     flex-direction: column;
-    background-color: rgb(215, 92, 203);
+    background-color: #3097ea;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
     z-index: 100;
@@ -245,7 +246,7 @@ a {
     color: rgba(245, 245, 245, 0.834);
     font-size: 20px;
     cursor: pointer;
-  margin-left: -35%;
+    margin-left: -30%;
 
 
   }
@@ -255,7 +256,7 @@ a {
     }
 
   .navOpenTop{
-    color: rgb(30, 141, 245);
+    color: #3097ea;
     font-size: 20px;
     cursor: pointer;
     margin-left: -30%;
