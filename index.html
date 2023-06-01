@@ -21,7 +21,7 @@
 
   <nav class="nav">
     <i class="uil uil-bars navOpenBtn"></i>
-    <a href="#" class="logo">Wheelie</a>
+    <a href="#"  id="logo" class="logo">Wheelie</a>
     <ul class="nav-links">
       <i class="uil uil-times navCloseBtn"></i>
       <li><a href="#">Home</a></li>
@@ -186,6 +186,21 @@ navOpenBtn.addEventListener("click", () => {
 navCloseBtn.addEventListener("click", () => {
   nav.classList.remove("openNav");
 });
+
+const logo = document.getElementById('logo');
+window.onscroll = function () {
+  console.log("scroll")
+    if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+      console.log("logo", logo)
+        logo.classList.add("logoUp");
+        logo.classList.remove("logo");
+    }
+    else {
+        logo.classList.add("logo");
+        logo.classList.remove("logoUp");
+    }
+};
+
 </script>
 
 </html>
