@@ -53,12 +53,12 @@ main{
   align-items: center;
   justify-items: center;
   margin-bottom: 35%;
-  margin-top: 100px;
-  gap: 18px;
+  margin-top: 120px;
+  gap: 10px;
   color: whitesmoke;
   font-size: 1.5rem;
   text-align: center;
-  padding: 2%;
+  width: 80%;
   font-weight: bold;
 
 }
