@@ -270,10 +270,16 @@ padding-bottom: 1%;
   justify-content: center;
   align-items: center;
   border-radius: 15%;
+  padding: 5%;
 }
 
 .card > img {
   max-width: 15rem;;
+}
+
+.card > p{
+  font-size: medium;
+  margin-bottom: 5%;
 }
 
 
