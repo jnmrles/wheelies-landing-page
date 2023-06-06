@@ -1,0 +1,19 @@
+{
+  "name": "wheelies-landing-page",
+  "version": "1.0.0",
+  "description": "wheelies landing page for treat trike company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnmrles/wheelies-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnmrles/wheelies-landing-page/issues"
+  },
+  "homepage": "https://github.com/jnmrles/wheelies-landing-page#readme"
+}
