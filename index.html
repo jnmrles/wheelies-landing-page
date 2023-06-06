@@ -183,6 +183,13 @@ navCloseBtn.addEventListener("click", () => {
 const logo = document.getElementById('logo');
 const burg = document.querySelector(".navOpenTop")
 
+if(window.screen.width > 950){
+  logo.classList.add("logoUp");
+        logo.classList.remove("logo");
+        burg.classList.remove("navOpenTop")
+        burg.classList.add("navOpenBtn")
+}
+
 window.onresize = function (){
   if(window.screen.width > 950){
   logo.classList.add("logoUp");
