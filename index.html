@@ -21,9 +21,9 @@
 
   <nav class="nav">
     <i class="uil uil-bars navOpenTop"></i>
-    <a href="#"  id="logo" class="logo">Wheelie</a>
+    <a href="#"  id="logo" class="logoUp">Wheelie</a>
     <ul class="nav-links">
-      <i class="uil uil-times navCloseBtn"></i>
+      <i class="uil uil-times navCloseBtn" display="none"></i>
       <li><a href="#top">Home</a></li>
       <li><a href="#why">Why</a></li>
       <li><a href="#how">How</a></li>
@@ -57,8 +57,8 @@
 
         <article class="card">
 
-          <img src="./assets/cart.png" width="165em">
-          <p>Easy Roll in and Roll out, making it simple and fun for everyone, including the host</p>
+          <img src="./assets/trike.png" width="165em">
+          <p>Easy roll in and roll out, making it simple and fun for everyone, including the host.</p>
         </article>
 
         <article class="card">
@@ -180,8 +180,26 @@ navCloseBtn.addEventListener("click", () => {
 
 const logo = document.getElementById('logo');
 const burg = document.querySelector(".navOpenTop")
+
+window.onresize = function (){
+  if(window.screen.width > 950){
+  logo.classList.add("logoUp");
+        logo.classList.remove("logo");
+        burg.classList.remove("navOpenTop")
+        burg.classList.add("navOpenBtn")
+}
+
+}
+
 window.onscroll = function () {
+
+  console.log(window.screen.height,
+window.screen.width)
   console.log("scroll")
+
+
+    if(window.screen.width <  950){
+
     if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
       console.log("logo", logo)
       console.log("burg", burg)
@@ -197,6 +215,7 @@ window.onscroll = function () {
         burg.classList.add("navOpenTop")
         burg.classList.remove("navOpenBtn")
     }
+  }
 };
 
 </script>
