@@ -57,6 +57,8 @@ main{
   text-align: center;
   width: 80%;
   font-weight: bold;
+  max-height: fit-content;
+  height: 1rem;;
 
 }
 
@@ -88,7 +90,7 @@ main{
   width: 100%;
   padding: 15px 200px;
   background: rgba(90, 188, 245, 0.3);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   z-index:100
 }
 .nav,
@@ -100,7 +102,7 @@ main{
   justify-content: space-between;
 }
 a {
-  color: rgb(236, 237, 238);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .nav .logo {
@@ -136,6 +138,7 @@ a {
 @media screen and (max-width: 2160px) {
   .nav {
     padding: 15px 100px;
+    color: #00c4f3 !important;
   }
 
   .hero_info{
@@ -228,7 +231,7 @@ a {
   }
 
   .hero_info{
-    margin-top: 40%;
+    margin-top: 30%;
   }
 }
 
